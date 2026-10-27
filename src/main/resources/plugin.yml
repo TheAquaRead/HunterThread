@@ -1,0 +1,12 @@
+name: HunterThread
+version: 1.0.0
+main: ru.hunterthread.HunterThread
+api-version: '26.3'
+commands:
+  hunterthread:
+    description: Выдать нить охотника
+    usage: /hunterthread give [игрок] [количество]
+    permission: hunterthread.admin
+permissions:
+  hunterthread.admin:
+    default: op
